@@ -1,0 +1,22 @@
+{
+    "detector": 
+        {
+            "config"    : "models/yolov4/yolov4-custom.cfg",
+            "weights"   : "models/yolov4/yolov4-custom_final.weights",
+            "labels"    : "models/yolov4/classes-4.names",
+            "confidence": "0.9",
+            "nms-thresh": "0.1"
+        },
+    "tracker": 
+        {
+            "max-age"   : "10",
+            "min-hits"  : "10",
+            "iou-thresh": "0.1"
+        },
+    "font": 
+        {
+            "style"    : "2",
+            "scale"    : "0.5",
+            "thickness": "1"
+        }
+}

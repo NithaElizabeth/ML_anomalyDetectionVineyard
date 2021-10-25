@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <title>Upload new File</title>
+    <head>
+        <title>Flask app</title>
+        <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='css/main.css') }}">
+        <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+        <script type=text/javascript> 
+            $(function() { 
+                $("#mybutton").click(function (event) { $.getJSON('/onClick', { },
+                    function(data) { }); 
+                    return false; 
+                }); 
+            }); 
+        </script>  -->
+    </head>
+    <body>
+        <form class="container"  action='' method="POST" enctype="multipart/form-data">
+            <p><input class="example_b" type='file' name='file[]' multiple=''>
+            
+            <br>
+
+            <fieldset style="display: block;">
+                <p>
+                    <label for="date">Date of video</label>
+                    <input name="date" type='date' id="date">
+                </p>
+                <br/>
+                <p>
+                    <label for="place">Proprietaire</label>
+                    <input name="place" type='place' id="place">
+                </p>
+                <br/>
+                <p>
+                    <label for="code">Parcelle code</label>
+                    <input name="code" type='code' id="code">
+                </p>
+                <p>
+                    <label for="left">Left Rank</label>
+                    <input name="left" type='left' id="left">
+
+                    <label for="right">Right Rank</label>
+                    <input name="right" type='right' id="right">
+                </p>
+            </fieldset>
+            
+            <input class="example_a" type='submit' value='upload'> 
+
+            
+            
+            <!-- <label>Date of video </label>
+            <br/>
+            <label>Proprietaire<input name="place" type='text' > </label>
+            <br/>
+            <label>Parcelle code<input name="code" type='text' > </label>
+            <br/>
+            <label>Right rank<input  name="left" type='number' > </label>
+            <label>Left rank<input name="right" type='number' > </label> -->
+            
+            <!-- <input type = "button" id = "mybutton" value = "Click Here"  type='submit' value='upload'> -->
+            <!-- <button id = "mybutton" type="button">Submit</button> -->
+            </p>
+        
+        </form>
+    </body>
+    
+
+</html>
+

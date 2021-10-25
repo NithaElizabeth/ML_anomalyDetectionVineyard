@@ -1,0 +1,17 @@
+models/*
+tracker/logs/*
+distance_estimator/__pycache__/*
+distance_estimator/utils/__pycache__/*
+distance_estimator/output/*
+tracker/utils/__pycache__/*
+tracker/__pycache__/*
+.vscode/*
+input/*.mp4
+# input/*.MP4
+output/*
+tracker/data/test/*
+distance_estimator/tree_status_data/text_dump/*
+*.MP4
+*.avi
+*.mp4
+Machine_learning/*

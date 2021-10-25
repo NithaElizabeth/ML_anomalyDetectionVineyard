@@ -1,0 +1,17 @@
+opencv-python==4.5.1.48
+numpy
+numba
+coloredlogs
+matplotlib
+scikit-image
+filterpy
+platform
+pandas
+tensorflow-gpu==2.3.0rc0
+lxml
+tqdm
+absl-py
+easydict
+pillow
+pytesseract
+
