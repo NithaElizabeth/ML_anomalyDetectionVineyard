@@ -49,9 +49,7 @@ $ python3 track_video.py
 
 See the [open issues](https://github.com/software3daerospace/treecounter-ML/issues) for a list of proposed features (and known issues).
 
-## Maintainer
 
-- [Sampreet Sarkar](mailto:software@3daerospace.eu)
 
 [contributors-shield]: https://img.shields.io/github/contributors/master-coro/follow_leader.svg?style=flat-square
 [contributors-url]: https://github.com/master-coro/follow_leader/graphs/contributors
