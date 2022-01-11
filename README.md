@@ -37,6 +37,6 @@ A structured JSON file with the details of missing and dead trees along with the
 Json file with one rank details
 ```
 ## Developers
-The system was developed by Nitha Elizabeth John in colaboration with Sampreeth Sarkar for the company 3DAerospace under the guidance of Prof.Stefano Rovetta
+The system was developed by Nitha Elizabeth John in colaboration with Sampreeth Sarkar for the company 3DAerospace under the guidance of Prof.Stefano Rovetta\
 Author  : Nitha Elizabeth John\
 Contact : nithaelizabethjohn@gmail.com
