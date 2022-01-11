@@ -32,7 +32,7 @@ python3 track_video.py -i input/MVI_3192.mp4
 ```
 
 ## Output files - output/
-
+A structured JSON file with the details of missing and dead trees along with their corresponding section and rank numbers will be outputted. This file will used at the front end to display the map in the smartphone
 ```
 Json file with one rank details
 ```
